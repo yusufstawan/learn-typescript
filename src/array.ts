@@ -7,3 +7,7 @@ array2 = ["Yusuf", "Setiyawan", "Yusuf Setiyawan"];
 
 let array3: any[];
 array3 = ["Yusuf", 2, true, [], {}, []];
+
+// tuples
+let biodata: [string, number];
+biodata = ["Yusuf", 25];

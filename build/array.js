@@ -6,3 +6,6 @@ let array2;
 array2 = ["Yusuf", "Setiyawan", "Yusuf Setiyawan"];
 let array3;
 array3 = ["Yusuf", 2, true, [], {}, []];
+// tuples
+let biodata;
+biodata = ["Yusuf", 25];

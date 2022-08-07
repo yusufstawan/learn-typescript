@@ -8,7 +8,7 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
-    "dev": "nodemon ./build/typeDasar.js"
+    "dev": "nodemon ./build/function.js"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
