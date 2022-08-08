@@ -15,3 +15,7 @@ heroes = 2;
 heroes = true;
 heroes = [];
 heroes = {};
+// union type
+let phone;
+phone = 6281234;
+phone = "0881234";
