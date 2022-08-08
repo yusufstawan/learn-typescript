@@ -32,3 +32,17 @@ let age: Age = 123;
 type Tambah = (val1: number, val2: number) => number;
 
 const Add: Tambah = (val1, val2) => val1 + val2;
+
+// default parameter
+const fullName = (firstName: string, lastName: string = "Setiyawan"): string => {
+  return firstName + " " + lastName;
+};
+
+console.log(fullName("Yusuf"));
+
+// optional parameter
+const getUmur = (val1: string, val2?: string): string => {
+  return val1 + " " + val2;
+};
+
+console.log(getUmur("A"));

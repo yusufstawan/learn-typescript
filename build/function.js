@@ -19,3 +19,13 @@ function multiply(val1, val2) {
 console.log(multiply(2, 3));
 let age = 123;
 const Add = (val1, val2) => val1 + val2;
+// default parameter
+const fullName = (firstName, lastName = "Setiyawan") => {
+    return firstName + " " + lastName;
+};
+console.log(fullName("Yusuf"));
+// optional parameter
+const getUmur = (val1, val2) => {
+    return val1 + " " + val2;
+};
+console.log(getUmur("A"));
