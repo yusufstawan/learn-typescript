@@ -6,6 +6,11 @@ type User = {
 };
 
 let user: User = {
-  name: "Yusuf",
-  age: 25,
+  name: "Nusendra",
+  age: 20,
+};
+
+user = {
+  name: "Jl. Kebon Jeruk",
+  age: 20,
 };

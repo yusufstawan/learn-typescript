@@ -1,9 +1,9 @@
-// enum
+// tipe data enum
 
 // numeric enum
 // enum Month {
 //   JAN = 1,
-//   FEB,
+//   FEB = 100,
 //   MAR,
 //   APR,
 //   MAY,
@@ -13,11 +13,11 @@
 
 // string enum
 enum Month {
-  JAN = "January",
-  FEB = "February",
-  MAR = "March",
+  JAN = "Januari",
+  FEB = "Februari",
+  MAR = "Maret",
   APR = "April",
-  MAY = "May",
+  MAY = "Mei",
 }
 
 console.log(Month.FEB);
