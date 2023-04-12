@@ -7,3 +7,4 @@ console.log(asus);
 let macbook = new Macbook("Pro", true, true);
 console.log(macbook);
 macbook.a();
+macbook.b();
