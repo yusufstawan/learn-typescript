@@ -20,7 +20,7 @@ function sellProducts<T extends Product>(products: T[]): void {
   });
 }
 
-const car = new CarProduct();
+const car1 = new CarProduct();
 const motor = new MotorProduct();
 
-sellProducts([car, motor]);
+sellProducts([car1, motor]);

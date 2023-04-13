@@ -8,11 +8,11 @@ class Hewan3 {
   }
 }
 
-const hewan = new Hewan3();
-console.log(hewan);
+const hewan3 = new Hewan3();
+console.log(hewan3);
 
-hewan.nama = "katak";
-hewan.kaki = 4;
-console.log(hewan);
+hewan3.nama = "katak";
+hewan3.kaki = 4;
+console.log(hewan3);
 
-hewan.bernafas();
+hewan3.bernafas();
